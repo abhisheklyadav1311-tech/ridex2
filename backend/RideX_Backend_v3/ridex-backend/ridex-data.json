@@ -1,0 +1,344 @@
+{
+  "users": [
+    {
+      "id": "978af1dc-eb54-49eb-989b-45a3672e4b12",
+      "name": "Admin",
+      "email": "yaduvanshi8584@gmail.com",
+      "phone": "+91 00000 00000",
+      "password": "$2a$10$rqyNP7umvw299iHv.x2KPefEuCKX0.7Wk5cJyXNWuEQ2z7ZQpSkKm",
+      "role": "admin",
+      "wallet": 0,
+      "created_at": "2026-02-24T18:27:19.457Z",
+      "updated_at": "2026-02-24T18:27:19.457Z",
+      "last_login": "2026-02-24T18:52:27.084Z"
+    },
+    {
+      "id": "67c75787-5460-4bec-93f1-dc8ce1fa3be4",
+      "name": "Demo User",
+      "email": "user@ridex.com",
+      "phone": "+91 99999 00000",
+      "password": "$2a$10$HrdKIJD3mi2wCNB3FciDuehPj11S3SbrZz6jYGBoql4paHWbWV036",
+      "role": "user",
+      "wallet": 100,
+      "created_at": "2026-02-24T18:27:19.512Z",
+      "updated_at": "2026-02-24T18:27:19.512Z"
+    },
+    {
+      "id": "092ece29-df31-4970-8e57-a70db5cf8680",
+      "name": "aannu yadav",
+      "email": "kalbataunga123@gmail.com",
+      "phone": "7738985566",
+      "password": "$2a$10$QueT0qVtV4n5WgInGffcg.0DXZF0N5GDmSYAp83brwB2Yqq5K8tYS",
+      "role": "user",
+      "wallet": 0,
+      "created_at": "2026-02-24T18:48:07.896Z",
+      "updated_at": "2026-02-24T18:48:07.896Z"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "b3c9ae0f-a3ed-4221-aaf7-c99e3d7a5341",
+      "name": "Rajan Sharma",
+      "phone": "+91 98765 43210",
+      "car_model": "Honda City",
+      "car_color": "White",
+      "plate": "DL 3C AB 7654",
+      "ride_type": "sedan",
+      "rating": 4.95,
+      "total_trips": 3110,
+      "status": "available",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "created_at": "2026-02-24T18:27:19.514Z"
+    },
+    {
+      "id": "83f06dfb-7b83-41f7-898a-0b59dedcd403",
+      "name": "Vikram Kumar",
+      "phone": "+91 98765 43211",
+      "car_model": "Maruti Swift",
+      "car_color": "Silver",
+      "plate": "DL 4D BC 8765",
+      "ride_type": "mini",
+      "rating": 4.83,
+      "total_trips": 2819,
+      "status": "available",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "created_at": "2026-02-24T18:27:19.514Z"
+    },
+    {
+      "id": "a619c1be-96b6-486d-8f8e-c74f91c7f928",
+      "name": "Anil Mehta",
+      "phone": "+91 98765 43212",
+      "car_model": "Toyota Innova",
+      "car_color": "Grey",
+      "plate": "DL 5E CD 9876",
+      "ride_type": "suv",
+      "rating": 4.56,
+      "total_trips": 728,
+      "status": "available",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "created_at": "2026-02-24T18:27:19.514Z"
+    },
+    {
+      "id": "86fb5cd9-b0b9-4c73-87cc-537beadcd6d1",
+      "name": "Suresh Patel",
+      "phone": "+91 98765 43213",
+      "car_model": "BMW 5 Series",
+      "car_color": "Black",
+      "plate": "DL 6F DE 0987",
+      "ride_type": "premium",
+      "rating": 4.56,
+      "total_trips": 3198,
+      "status": "available",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "created_at": "2026-02-24T18:27:19.514Z"
+    },
+    {
+      "id": "baf363fb-5d1f-44d6-89fe-5c0d41408862",
+      "name": "Deepak Singh",
+      "phone": "+91 98765 43214",
+      "car_model": "Hyundai i20",
+      "car_color": "Red",
+      "plate": "DL 7G EF 1098",
+      "ride_type": "mini",
+      "rating": 4.8,
+      "total_trips": 1327,
+      "status": "available",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "created_at": "2026-02-24T18:27:19.514Z"
+    },
+    {
+      "id": "f17f7433-0873-4f29-84e7-98baea283f5e",
+      "name": "Mohan Yadav",
+      "phone": "+91 98765 43215",
+      "car_model": "Honda Amaze",
+      "car_color": "White",
+      "plate": "DL 8H FG 2109",
+      "ride_type": "sedan",
+      "rating": 4.55,
+      "total_trips": 1933,
+      "status": "available",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "created_at": "2026-02-24T18:27:19.514Z"
+    },
+    {
+      "id": "f33abc48-fe2d-43e0-954c-be0b789aa86c",
+      "name": "Rahul Verma",
+      "phone": "+91 98765 43216",
+      "car_model": "Mahindra XUV",
+      "car_color": "Blue",
+      "plate": "DL 9I GH 3210",
+      "ride_type": "suv",
+      "rating": 4.79,
+      "total_trips": 2687,
+      "status": "available",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "created_at": "2026-02-24T18:27:19.514Z"
+    },
+    {
+      "id": "cfa69dce-6404-4e00-97da-8e29d8fc9251",
+      "name": "Sanjay Gupta",
+      "phone": "+91 98765 43217",
+      "car_model": "Mercedes C-Class",
+      "car_color": "Black",
+      "plate": "DL 1J HI 4321",
+      "ride_type": "premium",
+      "rating": 4.81,
+      "total_trips": 3104,
+      "status": "available",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "created_at": "2026-02-24T18:27:19.514Z"
+    },
+    {
+      "id": "7ab22883-1ea0-4bd7-9f58-be84db9efc32",
+      "name": "abhishek ji",
+      "phone": "7723787213",
+      "car_model": "gt 15",
+      "car_color": "black cobra",
+      "plate": "MH034JQXJO",
+      "ride_type": "sedan",
+      "rating": 5,
+      "total_trips": 0,
+      "status": "available",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "created_at": "2026-02-24T18:58:37.003Z"
+    }
+  ],
+  "rides": [
+    {
+      "id": "0d6a267d-79a9-49f9-bb17-0085ab383b83",
+      "user_id": "092ece29-df31-4970-8e57-a70db5cf8680",
+      "driver_id": "a619c1be-96b6-486d-8f8e-c74f91c7f928",
+      "pickup": "airport t2",
+      "drop_location": "thane hirnadani",
+      "ride_type": "suv",
+      "status": "cancelled",
+      "fare": 1266,
+      "base_fare": 180,
+      "distance_charge": 580,
+      "time_charge": 245,
+      "distance_km": 29,
+      "duration_min": 98,
+      "payment_method": "cash",
+      "payment_status": "pending",
+      "surge_multiplier": 1.2,
+      "scheduled_at": null,
+      "created_at": "2026-02-24T18:50:23.198Z",
+      "confirmed_at": "2026-02-24T18:50:23.198Z",
+      "started_at": null,
+      "completed_at": null,
+      "cancelled_by": "user",
+      "cancel_reason": "Changed plans"
+    }
+  ],
+  "payments": [
+    {
+      "id": "485f9d1f-39e2-4026-81db-f038135d98ac",
+      "ride_id": "0d6a267d-79a9-49f9-bb17-0085ab383b83",
+      "user_id": "092ece29-df31-4970-8e57-a70db5cf8680",
+      "amount": 1266,
+      "method": "cash",
+      "status": "refunded",
+      "created_at": "2026-02-24T18:50:23.198Z"
+    }
+  ],
+  "ratings": [],
+  "support_tickets": [
+    {
+      "id": "ad0d9a9b-b45c-4a9a-9e2a-eb0a0e98054c",
+      "user_id": "092ece29-df31-4970-8e57-a70db5cf8680",
+      "name": "aannu yadav",
+      "email": "kalbataunga123@gmail.com",
+      "subject": "hiiiiiiiiiiiiiii",
+      "message": "i am your first customer",
+      "status": "open",
+      "reply": null,
+      "created_at": "2026-02-24T18:51:38.391Z",
+      "updated_at": "2026-02-24T18:51:38.391Z"
+    }
+  ],
+  "settings": [
+    {
+      "key": "mini_base_fare",
+      "value": "80",
+      "label": "Mini Base Fare (₹)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "mini_per_km",
+      "value": "10",
+      "label": "Mini Per KM (₹)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "mini_per_min",
+      "value": "1",
+      "label": "Mini Per Minute (₹)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "sedan_base_fare",
+      "value": "120",
+      "label": "Sedan Base Fare (₹)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "sedan_per_km",
+      "value": "14",
+      "label": "Sedan Per KM (₹)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "sedan_per_min",
+      "value": "2",
+      "label": "Sedan Per Minute (₹)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "suv_base_fare",
+      "value": "180",
+      "label": "SUV Base Fare (₹)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "suv_per_km",
+      "value": "20",
+      "label": "SUV Per KM (₹)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "suv_per_min",
+      "value": "2.5",
+      "label": "SUV Per Minute (₹)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "premium_base_fare",
+      "value": "280",
+      "label": "Premium Base Fare (₹)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "premium_per_km",
+      "value": "30",
+      "label": "Premium Per KM (₹)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "premium_per_min",
+      "value": "4",
+      "label": "Premium Per Minute (₹)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "surge_peak_multiplier",
+      "value": "1.5",
+      "label": "Peak Hours Surge Multiplier",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "surge_night_multiplier",
+      "value": "1.2",
+      "label": "Night Surge Multiplier",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "peak_hours",
+      "value": "8-10,17-20",
+      "label": "Peak Hours (e.g. 8-10,17-20)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "gst_percent",
+      "value": "5",
+      "label": "GST Percent (%)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "min_fare",
+      "value": "50",
+      "label": "Minimum Fare (₹)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "cancellation_fee",
+      "value": "30",
+      "label": "Cancellation Fee (₹)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    },
+    {
+      "key": "free_cancel_minutes",
+      "value": "2",
+      "label": "Free Cancellation Window (min)",
+      "updated_at": "2026-02-24T18:27:19.394Z"
+    }
+  ]
+}
